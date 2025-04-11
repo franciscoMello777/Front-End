@@ -1,0 +1,28 @@
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+div {
+    width: 20%;
+    height: 20%;
+    background-color: aqua;
+}
+
+#A {
+    border-radius: 5px;
+}
+
+#B {
+    border-radius: 5px 20 px;
+}
+
+#C {
+    border-radius: 5px 20px 50px;
+}
+
+#D {
+    border-radius: 5px 20px 50px 200px;
+}

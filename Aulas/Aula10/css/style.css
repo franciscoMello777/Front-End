@@ -38,3 +38,7 @@ a::before {
 a::after {
     content: ">";
 }
+
+p {
+    text-shadow: 10px 10px red;
+}
