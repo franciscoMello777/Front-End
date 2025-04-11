@@ -1,0 +1,17 @@
+menu li ul {
+    display: block;
+    transition: 1000ms ease-in-out;
+}
+
+main li:hover ul {
+    display: block;
+    transition: 1000ms ease-in-out;
+}
+
+main ul ul li { 
+    color: rgb(13, 185, 33);
+}
+
+main {
+    color: aqua;
+}

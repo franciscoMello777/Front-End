@@ -1,0 +1,40 @@
+li:first-child {
+    color: blue;
+}
+
+li:last-child {
+    color: red;
+}
+
+li:nth-child(3) {
+    color: yellow;
+}
+
+a:hover {
+    color: rgb(241, 20, 127);
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color:black;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 200px;
+}
+
+p::first-line {
+    font-style: italic;
+}
+
+a::before {
+    content: "<";
+}
+
+a::after {
+    content: ">";
+}
