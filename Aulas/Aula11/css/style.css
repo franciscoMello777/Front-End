@@ -8,3 +8,11 @@ main {
     height: 20%;
     background: linear-gradient(rgba(0, 255, 60, 0.599), rgba(48, 4, 222, 0.626))
 }
+
+main:hover {
+    position: relative;
+    top: 30px;
+    color: violet;
+    transition: top 2s,color 1s, ease;
+}
+
