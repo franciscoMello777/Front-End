@@ -4,10 +4,18 @@
     }
 }
 
+h1::after {
+    content: "bom diaaaaaa";
+}
+
 @media screen and (min-width: 480px) and (max-width:768px) {
     body {
         background-color: orange;
     }
+}
+
+h1::after {
+    content: "boa noiiiiiiiite";
 }
 
 @media screen and (min-width: 768px) and (max-width:1024px) {
@@ -16,8 +24,16 @@
     }
 }
 
+h1::after {
+    content: "boa tardeeeeeeee";
+}
+
 @media screen and (max-width: 480px) {
     body {
         background-color: green;
     }
+}
+
+h1::after {
+    content: "FIMMMMMMMMMMMMM";
 }
