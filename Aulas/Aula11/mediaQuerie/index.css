@@ -6,7 +6,7 @@
     h1::after {
         content: "bom diaaaaaa";
     }
-    
+
 }
 
 @media screen and (min-width: 480px) and (max-width:768px) {
