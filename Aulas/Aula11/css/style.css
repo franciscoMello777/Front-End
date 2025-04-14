@@ -6,5 +6,5 @@ html, body {
 main {
     width: 80%;
     height: 20%;
-    background: linear-gradient(blue, red)
+    background: linear-gradient(rgba(0, 255, 60, 0.599), rgba(48, 4, 222, 0.626))
 }
