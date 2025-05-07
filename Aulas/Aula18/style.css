@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#pokex {
+    width: 400px;
+    height: 600px;
+}
+
+#container {
+    position: relative;
+}
+
+#imgPoke {
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+#form {
+    position: relative;
+    top: 50%;
+    left: 20%;
+}
+
+#nome {
+    position: absolute;
+    bottom: 30%;
+    left: 30%;
+}
+
+#inform1 {
+    position: absolute;
+    bottom: 25%;
+    left: 30%;
+}
+
+#inform2 {
+    position: absolute;
+    bottom: 12%;
+    left: 30%;
+}
+
+#botoes {
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+
