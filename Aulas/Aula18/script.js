@@ -74,3 +74,5 @@ document.addEventListener('click', () => {
   som.muted = false;
   som.play();
 });
+
+show(numPokedex);
