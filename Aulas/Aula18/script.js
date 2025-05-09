@@ -69,3 +69,8 @@ next.addEventListener("click", (e) => {
     show(numPokedex);
 });
 
+const som = document.getElementById('somPokemon');
+document.addEventListener('click', () => {
+  som.muted = false;
+  som.play();
+});
